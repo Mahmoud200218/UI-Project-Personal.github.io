@@ -1,0 +1,239 @@
+/*General */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+h5{
+    font-size: 20px;
+    color: #808080;
+    padding-bottom: 20px;
+}
+.padding-top{
+    padding-top: 10px;
+}
+.header-content ul li a:hover{
+color: rgb(48, 212, 158);
+transition: 0.5s;
+
+}
+
+/*Hedaer Seaction*/
+.header{
+position: relative;
+background-color: rgb(26, 26, 121);
+width: 98%;
+height: 60px;
+margin: auto;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+.header-content{
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-content ul {
+display: flex;
+justify-content: space-between;
+list-style: none;
+margin-top: 16px;
+}
+.header-content ul li{
+    transition: li 2s;
+}
+.header-content ul li a{
+    padding: 0 30px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.img-head{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 15px 0 0;
+    background-size: cover;
+}
+
+/*Content Section*/
+.content{
+    position: relative;
+    width: 100%;
+    margin: 30px 0 0 20px;
+}
+.report{
+    font-size: 20px;
+    padding: 20px 0 0 40px;
+    color: #808080;
+}
+.left-content{
+    width: 34%;
+    height: 450px;
+    background-color: #f5f5f5;
+    float: left;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px gray;
+}
+.left-title{
+    color: gray;
+}
+.left-items{
+    margin: 10px 0 0 15px;
+}
+.left-paragraph{
+    color: rgb(163, 159, 159);
+    font-size: 20px;
+}
+
+.circle-big{
+    position: absolute;
+    margin-top: 45px;
+    left: 9%;
+    background: radial-gradient(circle closest-side,transparent 100%,
+    #f5f5f5 ),
+    conic-gradient(
+        from 180deg,
+        #1A1A40 0%,
+        #1A1A40 55%,
+        #FA58B6 0,
+        #FA58B6 70%,
+        #7A0BC0 0,
+        #7A0BC0 80%,
+        #10ac85 0,
+        #10ac85 100%
+        );
+        min-width: 220px;
+        min-height: 220px;
+    }
+    
+    .circle-items{
+        display: flex;
+        margin-left: 5%;
+        position: absolute;
+        margin-top: 21%;
+    }
+    .padding-circle{
+        padding: 3px 38px 0 0px;
+    }
+    
+    .circle-small{
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        margin-top: 15px;
+
+    }
+    
+
+    /*Right Section*/
+    .right-content{
+        position: relative;
+        width: 61%;
+        height: 450px;
+        background-color: #f5f5f5;
+        margin-left: 15px;
+        float: left;
+        border-radius: 5px;
+        box-shadow: 0px 5px 10px gray;
+    }
+
+    .employees{
+        color: #363434;
+        padding: 5px 0 0 10px;
+    }
+
+    .right-box{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        position: absolute;
+        width: 95%;
+        height: 84%;
+        margin: 10px 0 0 20px ;
+        border: 1px solid rgb(197, 183, 183);
+        border-radius: 5px;
+    }
+    
+    .list-one{
+        display: flex;
+        margin: 8px 0 0 10px;
+        display: block;
+        
+    }
+    .list-one-doc{
+        display: flex;
+    }
+    .list-one img{
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        margin-right: 10px;
+        background-size: cover;
+    }
+    .list-one-items{
+     padding: 0 0 30px 0px;
+    }
+    .list-one span{
+      font-size:15px ;
+      color: #808080;
+    }
+    
+
+    /* list tow*/
+    .list-tow{
+        text-align: center;
+    }
+
+    .list-tow-content{
+     margin: 0 0 30px 10px;
+    }
+    .list-tow-content span{
+        color: #808080;
+    }
+    .list-tow span{
+        margin-left: -55px;
+    }
+
+    /*list three*/
+    .list-three{
+        text-align: center;
+    }
+    .list-three p{
+        margin:  0 0 48px 0;
+    }
+
+
+    /*list four*/
+    .list-four{
+        text-align: center;
+    }
+    .list-four p{
+        margin:  0 0 48px 0;
+
+    }
